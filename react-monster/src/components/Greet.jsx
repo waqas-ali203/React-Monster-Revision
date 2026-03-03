@@ -1,4 +1,13 @@
-const Greet= () => {
-    return <h1>Hello World g</h1>
+import React from 'react'
+const message = "Hello";
+const date = new Date();
+const Greet = () => {
+  return (
+    <div>
+      <h1>{message}</h1>
+      <p>Date : {date.getDate()}</p>
+    </div>
+  )
 }
-export default Greet;
+
+export default Greet
