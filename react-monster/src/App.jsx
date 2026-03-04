@@ -6,6 +6,8 @@ import JSXrules from "./components/JSXrules";
 import Expression from "./components/Expression";
 import ProductInfo from "./components/ProductInfo";
 import MapFunction from "./components/MapFunction";
+import ProductsProps from "./components/ProductsProps";
+import RenderDynamically from "./components/RenderDynamically";
 
 const App=() =>{
   return (
@@ -17,7 +19,9 @@ const App=() =>{
       {/* <Footer /> */}
       {/* <JSXrules /> */}
       {/* <Expression /> */}
-      <MapFunction />
+      {/* <MapFunction /> */}
+      {/* <ProductsProps name="Waqas ali" age="23" mobile="redme note 13"/> */}
+      <RenderDynamically />
     </div>
   )
 }
