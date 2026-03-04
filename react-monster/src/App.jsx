@@ -8,6 +8,8 @@ import ProductInfo from "./components/ProductInfo";
 import MapFunction from "./components/MapFunction";
 import ProductsProps from "./components/ProductsProps";
 import RenderDynamically from "./components/RenderDynamically";
+import Button from "./components/Button";
+import Counter from "./components/Counter";
 
 const App=() =>{
   return (
@@ -21,7 +23,9 @@ const App=() =>{
       {/* <Expression /> */}
       {/* <MapFunction /> */}
       {/* <ProductsProps name="Waqas ali" age="23" mobile="redme note 13"/> */}
-      <RenderDynamically />
+      {/* <RenderDynamically /> */}
+      {/* <Button /> */}
+      <Counter />
     </div>
   )
 }
