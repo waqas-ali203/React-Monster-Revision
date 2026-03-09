@@ -10,6 +10,7 @@ import ProductsProps from "./components/ProductsProps";
 import RenderDynamically from "./components/RenderDynamically";
 import Button from "./components/Button";
 import Counter from "./components/Counter";
+import Addfriends from "./components/Addfriends";
 
 const App=() =>{
   return (
@@ -25,7 +26,8 @@ const App=() =>{
       {/* <ProductsProps name="Waqas ali" age="23" mobile="redme note 13"/> */}
       {/* <RenderDynamically /> */}
       {/* <Button /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Addfriends />
     </div>
   )
 }
