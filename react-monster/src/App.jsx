@@ -11,25 +11,31 @@ import RenderDynamically from "./components/RenderDynamically";
 import Button from "./components/Button";
 import Counter from "./components/Counter";
 import Addfriends from "./components/Addfriends";
+import Todo from "./components/Todo";
+import Shopinglist from "./components/Shopinglist";
+import BasicuseEffetc from "./components/BasicuseEffetc";
+import FetchDataEffect from "./components/FetchDataEffect";
 
-const App=() =>{
-  return (
-    <div>
-      {/* <Greet /> */}
-      {/* <ProductInfo /> */}
-      {/* <Header /> */}
-      {/* <Main /> */}
-      {/* <Footer /> */}
-      {/* <JSXrules /> */}
-      {/* <Expression /> */}
-      {/* <MapFunction /> */}
-      {/* <ProductsProps name="Waqas ali" age="23" mobile="redme note 13"/> */}
-      {/* <RenderDynamically /> */}
-      {/* <Button /> */}
-      {/* <Counter /> */}
-      <Addfriends />
-    </div>
-  )
-}
+const App=() =>(
+  <div>
+    {/* <Greet /> */}
+    {/* <ProductInfo /> */}
+    {/* <Header /> */}
+    {/* <Main /> */}
+    {/* <Footer /> */}
+    {/* <JSXrules /> */}
+    {/* <Expression /> */}
+    {/* <MapFunction /> */}
+    {/* <ProductsProps name="Waqas ali" age="23" mobile="redme note 13"/> */}
+    {/* <RenderDynamically /> */}
+    {/* <Button /> */}
+    {/* <Counter /> */}
+    {/* <Addfriends /> */}
+    {/* <Todo /> */}
+    {/* <Shopinglist /> */}
+    {/* <BasicuseEffetc /> */}
+    <FetchDataEffect />
+  </div>
+)
 
 export default App;
