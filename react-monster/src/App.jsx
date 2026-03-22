@@ -15,26 +15,15 @@ import Todo from "./components/Todo";
 import Shopinglist from "./components/Shopinglist";
 import BasicuseEffetc from "./components/BasicuseEffetc";
 import FetchDataEffect from "./components/FetchDataEffect";
+import UserProfile from "./components/UserProfile";
+import { UserProvider } from './components/UserProvider'; 
+import UpdateUser from "./components/UpdateUser";
+import CounterReducer from "./components/CounterReducer";
+import FocusByUseRef from "./components/FocusByUseRef";
 
 const App=() =>(
   <div>
-    {/* <Greet /> */}
-    {/* <ProductInfo /> */}
-    {/* <Header /> */}
-    {/* <Main /> */}
-    {/* <Footer /> */}
-    {/* <JSXrules /> */}
-    {/* <Expression /> */}
-    {/* <MapFunction /> */}
-    {/* <ProductsProps name="Waqas ali" age="23" mobile="redme note 13"/> */}
-    {/* <RenderDynamically /> */}
-    {/* <Button /> */}
-    {/* <Counter /> */}
-    {/* <Addfriends /> */}
-    {/* <Todo /> */}
-    {/* <Shopinglist /> */}
-    {/* <BasicuseEffetc /> */}
-    <FetchDataEffect />
+    <FocusByUseRef />
   </div>
 )
 
