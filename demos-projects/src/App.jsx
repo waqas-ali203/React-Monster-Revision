@@ -8,7 +8,6 @@ const App = () => {
     <div>
       {/* <Counter /> */}
       {/* <Todo /> */}
-      <FormValidation />
     </div>
   )
 }
