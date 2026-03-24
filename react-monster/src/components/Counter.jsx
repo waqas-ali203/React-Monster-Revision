@@ -8,7 +8,8 @@ const Counter = () => {
 
   return (
     <div>
-        <h1>{count}</h1>
+      <h1>Counter App</h1>
+      <h1>{count}</h1>
       <button onClick={increment}>+</button>
       <button onClick={decrement}>-</button>
       <button onClick={decrement}>-</button>
